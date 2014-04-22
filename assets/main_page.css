@@ -1,0 +1,88 @@
+body { 
+font-family: 'Open Sans Bold', sans-serif;
+}
+a {
+  color: white;
+}
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+#main-image {
+  width: 100%;
+}
+#title-text {
+  text-align: center;
+  font-size: 48px;
+}
+#main-text-wrapper {
+  background: #E6E6E6;
+  height: 150px;
+}
+#main-text {
+  padding-top: 40px;
+  margin-left: 45px;
+}
+#bottom-wrapper {
+  background: #031F31;
+  height: 150px;
+}
+.icon-image {
+  height: 80px;
+}
+.info {
+  float: left;
+  height: 300px;
+  width: 20%;
+  padding: 20px;
+}
+#main-content-wrapper {
+  height: 500px;
+  padding-top: 25px;
+  overflow: hidden;
+}
+
+#main-content {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#bottom-text {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 32px;
+  padding-top: 45px;
+}
+#icon1 {
+    padding: 10px;
+    padding-left: 50px;
+}
+#icon2 {
+    padding: 10px;
+    padding-left: 50px;
+}
+#icon3 {
+    padding: 10px;
+    padding-left: 60px;
+}
+#icon4 {
+    padding: 10px;
+    padding-left: 60px;
+}
+.title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 15px;
+}
+.content {
+    text-align: center;
+}
+
+.left-border {
+    border: 1px;
+}
