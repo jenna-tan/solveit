@@ -43,6 +43,11 @@ a:hover {
   width: 20%;
   padding: 20px;
 }
+.underline {
+    text-decoration: underline;
+    color: #e5725b;
+    text-underline-width: 100%;
+}
 #main-content-wrapper {
   margin-left: auto;
   margin-right: auto;
@@ -66,6 +71,7 @@ a:hover {
     font-weight: bold;
     font-size: 18px;
     padding: 15px;
+    color: black;
 }
 .content {
     text-align: center;
