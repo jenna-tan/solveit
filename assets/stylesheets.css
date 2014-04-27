@@ -5,6 +5,7 @@ body {
     background-color: whitesmoke;
 }
 
+/*header and footer stuff*/
 ul {
 font-family: Arial, Verdana;
 font-size: 20px;
@@ -144,7 +145,7 @@ float: left;
     margin-right: 20;
     cursor: pointer;
 }
-
+/*end of header/footer stuff!*/
 
 #submit-button {
     display: inline-block;
