@@ -4,8 +4,68 @@
 <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="assets/main_page.css" />
 <script src="assets/jquery-1.9.1.js"></script>
+<script src="assets/script.js"></script>
 </head>
 <body>
+
+	<div class="Headers">
+		<ul id="menu">
+			<li id='logo'>SolveItUsa</li>
+			<!-- need to add the links, change accordingly to match name of your file -->
+			<li class='header_item'><a href='index.html'/><div id ='home'>Home</div></a></li>
+			<li class='header_item'><!--<a href='about.html'/> --><div id ='about'>About</div><!-- </a> --></li>
+			<li class='header_item'><a href='contact.html'/><div id ='contact'>Contact</div></a></li>
+		<div id ='menuright'>
+			<li class ="right_item"><div id='signup'>Signup</div></li>
+
+			<div id="modal-container_signup">
+				<div id="modal-overlay_signup"></div>
+				<div id="modal-box-wrapper">
+					<div id="modal-box">
+						<div id="modal-header">
+							Signup
+						</div>
+							<div id="modal-content">
+							<input type="text" id="inputbox" placeholder="Enter new username" />
+							<input type="password" id="inputbox" placeholder="Enter new password" />
+							<input type="password" id="inputbox" placeholder="Re-Enter new password" />
+						</div>
+							<div class="button">
+								Submit
+							</div>
+							<div class="button">
+								Cancel
+							</div>
+					</div>
+				</div>
+			</div>
+			
+			<li class ="right_item"><div id='login'>Login</div></li>
+
+			<div id="modal-container_login">
+				<div id="modal-overlay_login"></div>
+				<div id="modal-box-wrapper">
+					<div id="modal-box">
+						<div id="modal-header">
+							Login
+						</div>
+							<div id="modal-content">
+							<input type="text" id="inputbox" placeholder="Enter username" />
+							<input type="password" id="inputbox" placeholder="Enter password" />
+						</div>
+							<div class="button">
+								Submit
+							</div>
+							<div class="button">
+								Cancel
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</ul>
+	</div>
+
 <div id="banner-wrapper">
 	<div id="banner">
 		<img id="main-image" src="images/building.jpg">
@@ -53,5 +113,8 @@
 	    <div id="bottom-text">Learn more about what we do <a href="doc-link">here</a>.</div>
 	</div>	
 </div>	
+	<div id="Footer">
+		<h7><div id='copyright'>copyright &#169; Solve It USA</div></h7>
+	</div>
 </body>
 </html>
