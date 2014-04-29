@@ -24,6 +24,8 @@ float: left;
     color: white;
     font-size: 16px;
     padding-left: 30px;
+}
+#about a {
     text-decoration: none;
 }
 #menu {
